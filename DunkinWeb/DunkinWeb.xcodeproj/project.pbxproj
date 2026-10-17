@@ -1,0 +1,956 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574959173081ABCF00667961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959163081ABCF00667961 /* UIKit.framework */; };
+		574959193081ABCF00667961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959183081ABCF00667961 /* Foundation.framework */; };
+		5749591B3081ABCF00667961 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5749591A3081ABCF00667961 /* CoreGraphics.framework */; };
+		574959213081ABCF00667961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5749591F3081ABCF00667961 /* InfoPlist.strings */; };
+		574959293081ABCF00667961 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959283081ABCF00667961 /* Default.png */; };
+		5749592B3081ABCF00667961 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749592A3081ABCF00667961 /* Default@2x.png */; };
+		5749592D3081ABCF00667961 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749592C3081ABCF00667961 /* Default-568h@2x.png */; };
+		574959353081ABCF00667961 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959343081ABCF00667961 /* SenTestingKit.framework */; };
+		574959363081ABCF00667961 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959163081ABCF00667961 /* UIKit.framework */; };
+		574959373081ABCF00667961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959183081ABCF00667961 /* Foundation.framework */; };
+		5749593F3081ABCF00667961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5749593D3081ABCF00667961 /* InfoPlist.strings */; };
+		574959923081AC6000667961 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749594E3081AC6000667961 /* AppDelegate.m */; };
+		574959933081AC6000667961 /* BlockingProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959503081AC6000667961 /* BlockingProtocol.m */; };
+		574959953081AC6000667961 /* DDAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959543081AC6000667961 /* DDAPI.m */; };
+		574959963081AC6000667961 /* GiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959563081AC6000667961 /* GiftViewController.m */; };
+		574959973081AC6000667961 /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959583081AC6000667961 /* JSONUtil.m */; };
+		574959993081AC6000667961 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749595B3081AC6000667961 /* main.m */; };
+		5749599A3081AC6000667961 /* MenuTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749595D3081AC6000667961 /* MenuTabViewController.m */; };
+		5749599B3081AC6000667961 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749595F3081AC6000667961 /* MoreViewController.m */; };
+		5749599C3081AC6000667961 /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959613081AC6000667961 /* ProductViewController.m */; };
+		5749599E3081AC6000667961 /* SampleCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959653081AC6000667961 /* SampleCardView.m */; };
+		5749599F3081AC6000667961 /* SpeedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959673081AC6000667961 /* SpeedTest.m */; };
+		574959A03081AC6000667961 /* StoreDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574959693081AC6000667961 /* StoreDetailViewController.m */; };
+		574959A13081AC6000667961 /* StoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749596B3081AC6000667961 /* StoresViewController.m */; };
+		574959A23081AC6000667961 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5749596E3081AC6000667961 /* WebViewController.m */; };
+		574959A33081AC6000667961 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959713081AC6000667961 /* Default-568h@2x.png */; };
+		574959A43081AC6000667961 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959723081AC6000667961 /* Default.png */; };
+		574959A53081AC6000667961 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959733081AC6000667961 /* Default@2x.png */; };
+		574959A63081AC6000667961 /* DunkinWeb-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574959743081AC6000667961 /* DunkinWeb-Info.plist */; };
+		574959A73081AC6000667961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574959763081AC6000667961 /* InfoPlist.strings */; };
+		574959A93081AC6000667961 /* DunkinWebTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5749597D3081AC6000667961 /* DunkinWebTests-Info.plist */; };
+		574959AB3081AC6000667961 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574959803081AC6000667961 /* InfoPlist.strings */; };
+		574959AC3081AC6000667961 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 574959823081AC6000667961 /* README.txt */; };
+		574959AD3081AC6000667961 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959843081AC6000667961 /* Icon-Small.png */; };
+		574959AE3081AC6000667961 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959853081AC6000667961 /* Icon-Small@2x.png */; };
+		574959AF3081AC6000667961 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959863081AC6000667961 /* Icon.png */; };
+		574959B03081AC6000667961 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959873081AC6000667961 /* Icon@2x.png */; };
+		574959B13081AC6000667961 /* tab_cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959883081AC6000667961 /* tab_cards.png */; };
+		574959B23081AC6000667961 /* tab_cards@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959893081AC6000667961 /* tab_cards@2x.png */; };
+		574959B33081AC6000667961 /* tab_gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598A3081AC6000667961 /* tab_gift.png */; };
+		574959B43081AC6000667961 /* tab_gift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598B3081AC6000667961 /* tab_gift@2x.png */; };
+		574959B53081AC6000667961 /* tab_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598C3081AC6000667961 /* tab_menu.png */; };
+		574959B63081AC6000667961 /* tab_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598D3081AC6000667961 /* tab_menu@2x.png */; };
+		574959B73081AC6000667961 /* tab_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598E3081AC6000667961 /* tab_more.png */; };
+		574959B83081AC6000667961 /* tab_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5749598F3081AC6000667961 /* tab_more@2x.png */; };
+		574959B93081AC6000667961 /* tab_restaurants.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959903081AC6000667961 /* tab_restaurants.png */; };
+		574959BA3081AC6000667961 /* tab_restaurants@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 574959913081AC6000667961 /* tab_restaurants@2x.png */; };
+		5752FEDC3081B15C00EAB9EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5752FEDB3081B15C00EAB9EE /* CoreLocation.framework */; };
+		5752FEDE3081B16F00EAB9EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5752FEDD3081B16F00EAB9EE /* MapKit.framework */; };
+		5752FEDF3081B1A800EAB9EE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5752FEDB3081B15C00EAB9EE /* CoreLocation.framework */; };
+		5752FEE03081B1B200EAB9EE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5752FEDD3081B16F00EAB9EE /* MapKit.framework */; };
+		57BCCF893082B9DC00851C01 /* DDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCF883082B9DC00851C01 /* DDStyle.m */; };
+		57BCCF8C3082BBFC00851C01 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCF8B3082BBFC00851C01 /* NotificationsViewController.m */; };
+		57BCCF8E3082BC1200851C01 /* NotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCF8D3082BC1200851C01 /* NotificationManager.m */; };
+		57BCCFB03082CA6C00851C01 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959343081ABCF00667961 /* SenTestingKit.framework */; };
+		57BCCFB13082CA6C00851C01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959163081ABCF00667961 /* UIKit.framework */; };
+		57BCCFB23082CA6C00851C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574959183081ABCF00667961 /* Foundation.framework */; };
+		57BCCFBA3082CA6C00851C01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57BCCFB83082CA6C00851C01 /* InfoPlist.strings */; };
+		57BCCFBD3082CA6C00851C01 /* Dunkin_DonutsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCFBC3082CA6C00851C01 /* Dunkin_DonutsTests.m */; };
+		57BCCFD130839D1300851C01 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCFD030839D1300851C01 /* HistoryViewController.m */; };
+		57BCCFD430839D2900851C01 /* SampleCards.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCFD330839D2900851C01 /* SampleCards.m */; };
+		57BCCFD630839D3300851C01 /* LocationFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCFD530839D3300851C01 /* LocationFinder.m */; };
+		57BCCFD930839E9000851C01 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCFD830839E8F00851C01 /* CardsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574959383081ABCF00667961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5749590B3081ABCF00667961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574959123081ABCF00667961;
+			remoteInfo = DunkinWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		574959133081ABCF00667961 /* DunkinWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DunkinWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574959163081ABCF00667961 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		574959183081ABCF00667961 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5749591A3081ABCF00667961 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5749591E3081ABCF00667961 /* DunkinWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DunkinWeb-Info.plist"; sourceTree = "<group>"; };
+		574959203081ABCF00667961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		574959243081ABCF00667961 /* DunkinWeb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DunkinWeb-Prefix.pch"; sourceTree = "<group>"; };
+		574959283081ABCF00667961 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5749592A3081ABCF00667961 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5749592C3081ABCF00667961 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		574959333081ABCF00667961 /* DunkinWebTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DunkinWebTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574959343081ABCF00667961 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5749593C3081ABCF00667961 /* DunkinWebTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DunkinWebTests-Info.plist"; sourceTree = "<group>"; };
+		5749593E3081ABCF00667961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5749594D3081AC6000667961 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5749594E3081AC6000667961 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5749594F3081AC6000667961 /* BlockingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockingProtocol.h; sourceTree = "<group>"; };
+		574959503081AC6000667961 /* BlockingProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockingProtocol.m; sourceTree = "<group>"; };
+		574959533081AC6000667961 /* DDAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAPI.h; sourceTree = "<group>"; };
+		574959543081AC6000667961 /* DDAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAPI.m; sourceTree = "<group>"; };
+		574959553081AC6000667961 /* GiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftViewController.h; sourceTree = "<group>"; };
+		574959563081AC6000667961 /* GiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftViewController.m; sourceTree = "<group>"; };
+		574959573081AC6000667961 /* JSONUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
+		574959583081AC6000667961 /* JSONUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
+		574959593081AC6000667961 /* LocationFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationFinder.h; sourceTree = "<group>"; };
+		5749595B3081AC6000667961 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5749595C3081AC6000667961 /* MenuTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTabViewController.h; sourceTree = "<group>"; };
+		5749595D3081AC6000667961 /* MenuTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTabViewController.m; sourceTree = "<group>"; };
+		5749595E3081AC6000667961 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		5749595F3081AC6000667961 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		574959603081AC6000667961 /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		574959613081AC6000667961 /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		574959643081AC6000667961 /* SampleCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCardView.h; sourceTree = "<group>"; };
+		574959653081AC6000667961 /* SampleCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCardView.m; sourceTree = "<group>"; };
+		574959663081AC6000667961 /* SpeedTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeedTest.h; sourceTree = "<group>"; };
+		574959673081AC6000667961 /* SpeedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeedTest.m; sourceTree = "<group>"; };
+		574959683081AC6000667961 /* StoreDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDetailViewController.h; sourceTree = "<group>"; };
+		574959693081AC6000667961 /* StoreDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDetailViewController.m; sourceTree = "<group>"; };
+		5749596A3081AC6000667961 /* StoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoresViewController.h; sourceTree = "<group>"; };
+		5749596B3081AC6000667961 /* StoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoresViewController.m; sourceTree = "<group>"; };
+		5749596C3081AC6000667961 /* Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Theme.h; sourceTree = "<group>"; };
+		5749596D3081AC6000667961 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		5749596E3081AC6000667961 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		574959713081AC6000667961 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		574959723081AC6000667961 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		574959733081AC6000667961 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		574959743081AC6000667961 /* DunkinWeb-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DunkinWeb-Info.plist"; sourceTree = "<group>"; };
+		574959753081AC6000667961 /* DunkinWeb-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DunkinWeb-Prefix.pch"; sourceTree = "<group>"; };
+		574959773081AC6000667961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		574959783081AC6000667961 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		574959793081AC6000667961 /* DunkinWeb.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DunkinWeb.xcodeproj; sourceTree = "<group>"; };
+		5749597D3081AC6000667961 /* DunkinWebTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DunkinWebTests-Info.plist"; sourceTree = "<group>"; };
+		574959813081AC6000667961 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		574959823081AC6000667961 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		574959843081AC6000667961 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		574959853081AC6000667961 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		574959863081AC6000667961 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		574959873081AC6000667961 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		574959883081AC6000667961 /* tab_cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_cards.png; sourceTree = "<group>"; };
+		574959893081AC6000667961 /* tab_cards@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_cards@2x.png"; sourceTree = "<group>"; };
+		5749598A3081AC6000667961 /* tab_gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_gift.png; sourceTree = "<group>"; };
+		5749598B3081AC6000667961 /* tab_gift@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_gift@2x.png"; sourceTree = "<group>"; };
+		5749598C3081AC6000667961 /* tab_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_menu.png; sourceTree = "<group>"; };
+		5749598D3081AC6000667961 /* tab_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_menu@2x.png"; sourceTree = "<group>"; };
+		5749598E3081AC6000667961 /* tab_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_more.png; sourceTree = "<group>"; };
+		5749598F3081AC6000667961 /* tab_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_more@2x.png"; sourceTree = "<group>"; };
+		574959903081AC6000667961 /* tab_restaurants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_restaurants.png; sourceTree = "<group>"; };
+		574959913081AC6000667961 /* tab_restaurants@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_restaurants@2x.png"; sourceTree = "<group>"; };
+		5752FEDB3081B15C00EAB9EE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5752FEDD3081B16F00EAB9EE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		57BCCF873082B9D100851C01 /* DDStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDStyle.h; sourceTree = "<group>"; };
+		57BCCF883082B9DC00851C01 /* DDStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDStyle.m; sourceTree = "<group>"; };
+		57BCCF8A3082BBF200851C01 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		57BCCF8B3082BBFC00851C01 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		57BCCF8D3082BC1200851C01 /* NotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationManager.m; sourceTree = "<group>"; };
+		57BCCF8F3082BC1B00851C01 /* NotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationManager.h; sourceTree = "<group>"; };
+		57BCCF9A3082CA6B00851C01 /* Dunkin Donuts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dunkin Donuts-Info.plist"; sourceTree = "<group>"; };
+		57BCCF9C3082CA6B00851C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57BCCF9E3082CA6B00851C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BCCFA03082CA6B00851C01 /* Dunkin Donuts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dunkin Donuts-Prefix.pch"; sourceTree = "<group>"; };
+		57BCCFA13082CA6B00851C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57BCCFA23082CA6B00851C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57BCCFA43082CA6B00851C01 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57BCCFA63082CA6B00851C01 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57BCCFA83082CA6B00851C01 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		57BCCFAF3082CA6C00851C01 /* Dunkin DonutsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dunkin DonutsTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BCCFB73082CA6C00851C01 /* Dunkin DonutsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dunkin DonutsTests-Info.plist"; sourceTree = "<group>"; };
+		57BCCFB93082CA6C00851C01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57BCCFBB3082CA6C00851C01 /* Dunkin_DonutsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dunkin_DonutsTests.h; sourceTree = "<group>"; };
+		57BCCFBC3082CA6C00851C01 /* Dunkin_DonutsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dunkin_DonutsTests.m; sourceTree = "<group>"; };
+		57BCCFCF30839D0700851C01 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		57BCCFD030839D1300851C01 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		57BCCFD230839D1D00851C01 /* SampleCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCards.h; sourceTree = "<group>"; };
+		57BCCFD330839D2900851C01 /* SampleCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCards.m; sourceTree = "<group>"; };
+		57BCCFD530839D3300851C01 /* LocationFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationFinder.m; sourceTree = "<group>"; };
+		57BCCFD730839E8100851C01 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		57BCCFD830839E8F00851C01 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574959103081ABCF00667961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5752FEE03081B1B200EAB9EE /* MapKit.framework in Frameworks */,
+				5752FEDF3081B1A800EAB9EE /* CoreLocation.framework in Frameworks */,
+				574959173081ABCF00667961 /* UIKit.framework in Frameworks */,
+				574959193081ABCF00667961 /* Foundation.framework in Frameworks */,
+				5749591B3081ABCF00667961 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5749592F3081ABCF00667961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5752FEDE3081B16F00EAB9EE /* MapKit.framework in Frameworks */,
+				5752FEDC3081B15C00EAB9EE /* CoreLocation.framework in Frameworks */,
+				574959353081ABCF00667961 /* SenTestingKit.framework in Frameworks */,
+				574959363081ABCF00667961 /* UIKit.framework in Frameworks */,
+				574959373081ABCF00667961 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BCCFAB3082CA6C00851C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BCCFB03082CA6C00851C01 /* SenTestingKit.framework in Frameworks */,
+				57BCCFB13082CA6C00851C01 /* UIKit.framework in Frameworks */,
+				57BCCFB23082CA6C00851C01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5749590A3081ABCF00667961 = {
+			isa = PBXGroup;
+			children = (
+				5752FEDD3081B16F00EAB9EE /* MapKit.framework */,
+				5752FEDB3081B15C00EAB9EE /* CoreLocation.framework */,
+				5749591C3081ABCF00667961 /* DunkinWeb */,
+				5749593A3081ABCF00667961 /* DunkinWebTests */,
+				57BCCF983082CA6B00851C01 /* Dunkin Donuts */,
+				57BCCFB53082CA6C00851C01 /* Dunkin DonutsTests */,
+				574959153081ABCF00667961 /* Frameworks */,
+				574959143081ABCF00667961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574959143081ABCF00667961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574959133081ABCF00667961 /* DunkinWeb.app */,
+				574959333081ABCF00667961 /* DunkinWebTests.octest */,
+				57BCCFAF3082CA6C00851C01 /* Dunkin DonutsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574959153081ABCF00667961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				574959163081ABCF00667961 /* UIKit.framework */,
+				574959183081ABCF00667961 /* Foundation.framework */,
+				5749591A3081ABCF00667961 /* CoreGraphics.framework */,
+				574959343081ABCF00667961 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5749591C3081ABCF00667961 /* DunkinWeb */ = {
+			isa = PBXGroup;
+			children = (
+				5749594B3081AC6000667961 /* DunkinLite_v4 */,
+				5749591D3081ABCF00667961 /* Supporting Files */,
+			);
+			path = DunkinWeb;
+			sourceTree = "<group>";
+		};
+		5749591D3081ABCF00667961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5749591E3081ABCF00667961 /* DunkinWeb-Info.plist */,
+				5749591F3081ABCF00667961 /* InfoPlist.strings */,
+				574959243081ABCF00667961 /* DunkinWeb-Prefix.pch */,
+				574959283081ABCF00667961 /* Default.png */,
+				5749592A3081ABCF00667961 /* Default@2x.png */,
+				5749592C3081ABCF00667961 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5749593A3081ABCF00667961 /* DunkinWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				5749593B3081ABCF00667961 /* Supporting Files */,
+			);
+			path = DunkinWebTests;
+			sourceTree = "<group>";
+		};
+		5749593B3081ABCF00667961 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5749593C3081ABCF00667961 /* DunkinWebTests-Info.plist */,
+				5749593D3081ABCF00667961 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5749594B3081AC6000667961 /* DunkinLite_v4 */ = {
+			isa = PBXGroup;
+			children = (
+				5749594C3081AC6000667961 /* Classes */,
+				5749596F3081AC6000667961 /* DunkinWeb */,
+				574959823081AC6000667961 /* README.txt */,
+				574959833081AC6000667961 /* Resources */,
+			);
+			name = DunkinLite_v4;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5749594C3081AC6000667961 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCFD830839E8F00851C01 /* CardsViewController.m */,
+				57BCCFD730839E8100851C01 /* CardsViewController.h */,
+				57BCCFD530839D3300851C01 /* LocationFinder.m */,
+				57BCCFD330839D2900851C01 /* SampleCards.m */,
+				57BCCFD230839D1D00851C01 /* SampleCards.h */,
+				57BCCFD030839D1300851C01 /* HistoryViewController.m */,
+				57BCCFCF30839D0700851C01 /* HistoryViewController.h */,
+				57BCCF8F3082BC1B00851C01 /* NotificationManager.h */,
+				57BCCF8D3082BC1200851C01 /* NotificationManager.m */,
+				57BCCF8B3082BBFC00851C01 /* NotificationsViewController.m */,
+				57BCCF8A3082BBF200851C01 /* NotificationsViewController.h */,
+				57BCCF873082B9D100851C01 /* DDStyle.h */,
+				57BCCF883082B9DC00851C01 /* DDStyle.m */,
+				5749594D3081AC6000667961 /* AppDelegate.h */,
+				5749594E3081AC6000667961 /* AppDelegate.m */,
+				5749594F3081AC6000667961 /* BlockingProtocol.h */,
+				574959503081AC6000667961 /* BlockingProtocol.m */,
+				574959533081AC6000667961 /* DDAPI.h */,
+				574959543081AC6000667961 /* DDAPI.m */,
+				574959553081AC6000667961 /* GiftViewController.h */,
+				574959563081AC6000667961 /* GiftViewController.m */,
+				574959573081AC6000667961 /* JSONUtil.h */,
+				574959583081AC6000667961 /* JSONUtil.m */,
+				574959593081AC6000667961 /* LocationFinder.h */,
+				5749595B3081AC6000667961 /* main.m */,
+				5749595C3081AC6000667961 /* MenuTabViewController.h */,
+				5749595D3081AC6000667961 /* MenuTabViewController.m */,
+				5749595E3081AC6000667961 /* MoreViewController.h */,
+				5749595F3081AC6000667961 /* MoreViewController.m */,
+				574959603081AC6000667961 /* ProductViewController.h */,
+				574959613081AC6000667961 /* ProductViewController.m */,
+				574959643081AC6000667961 /* SampleCardView.h */,
+				574959653081AC6000667961 /* SampleCardView.m */,
+				574959663081AC6000667961 /* SpeedTest.h */,
+				574959673081AC6000667961 /* SpeedTest.m */,
+				574959683081AC6000667961 /* StoreDetailViewController.h */,
+				574959693081AC6000667961 /* StoreDetailViewController.m */,
+				5749596A3081AC6000667961 /* StoresViewController.h */,
+				5749596B3081AC6000667961 /* StoresViewController.m */,
+				5749596C3081AC6000667961 /* Theme.h */,
+				5749596D3081AC6000667961 /* WebViewController.h */,
+				5749596E3081AC6000667961 /* WebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5749596F3081AC6000667961 /* DunkinWeb */ = {
+			isa = PBXGroup;
+			children = (
+				574959703081AC6000667961 /* DunkinWeb */,
+				574959793081AC6000667961 /* DunkinWeb.xcodeproj */,
+				5749597C3081AC6000667961 /* DunkinWebTests */,
+			);
+			path = DunkinWeb;
+			sourceTree = "<group>";
+		};
+		574959703081AC6000667961 /* DunkinWeb */ = {
+			isa = PBXGroup;
+			children = (
+				574959713081AC6000667961 /* Default-568h@2x.png */,
+				574959723081AC6000667961 /* Default.png */,
+				574959733081AC6000667961 /* Default@2x.png */,
+				574959743081AC6000667961 /* DunkinWeb-Info.plist */,
+				574959753081AC6000667961 /* DunkinWeb-Prefix.pch */,
+				574959763081AC6000667961 /* InfoPlist.strings */,
+				574959783081AC6000667961 /* main.m */,
+			);
+			path = DunkinWeb;
+			sourceTree = "<group>";
+		};
+		5749597A3081AC6000667961 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5749597C3081AC6000667961 /* DunkinWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				5749597D3081AC6000667961 /* DunkinWebTests-Info.plist */,
+				574959803081AC6000667961 /* InfoPlist.strings */,
+			);
+			path = DunkinWebTests;
+			sourceTree = "<group>";
+		};
+		574959833081AC6000667961 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				574959843081AC6000667961 /* Icon-Small.png */,
+				574959853081AC6000667961 /* Icon-Small@2x.png */,
+				574959863081AC6000667961 /* Icon.png */,
+				574959873081AC6000667961 /* Icon@2x.png */,
+				574959883081AC6000667961 /* tab_cards.png */,
+				574959893081AC6000667961 /* tab_cards@2x.png */,
+				5749598A3081AC6000667961 /* tab_gift.png */,
+				5749598B3081AC6000667961 /* tab_gift@2x.png */,
+				5749598C3081AC6000667961 /* tab_menu.png */,
+				5749598D3081AC6000667961 /* tab_menu@2x.png */,
+				5749598E3081AC6000667961 /* tab_more.png */,
+				5749598F3081AC6000667961 /* tab_more@2x.png */,
+				574959903081AC6000667961 /* tab_restaurants.png */,
+				574959913081AC6000667961 /* tab_restaurants@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57BCCF983082CA6B00851C01 /* Dunkin Donuts */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCFA13082CA6B00851C01 /* AppDelegate.h */,
+				57BCCFA23082CA6B00851C01 /* AppDelegate.m */,
+				57BCCF993082CA6B00851C01 /* Supporting Files */,
+			);
+			path = "Dunkin Donuts";
+			sourceTree = "<group>";
+		};
+		57BCCF993082CA6B00851C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCF9A3082CA6B00851C01 /* Dunkin Donuts-Info.plist */,
+				57BCCF9B3082CA6B00851C01 /* InfoPlist.strings */,
+				57BCCF9E3082CA6B00851C01 /* main.m */,
+				57BCCFA03082CA6B00851C01 /* Dunkin Donuts-Prefix.pch */,
+				57BCCFA43082CA6B00851C01 /* Default.png */,
+				57BCCFA63082CA6B00851C01 /* Default@2x.png */,
+				57BCCFA83082CA6B00851C01 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57BCCFB53082CA6C00851C01 /* Dunkin DonutsTests */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCFBB3082CA6C00851C01 /* Dunkin_DonutsTests.h */,
+				57BCCFBC3082CA6C00851C01 /* Dunkin_DonutsTests.m */,
+				57BCCFB63082CA6C00851C01 /* Supporting Files */,
+			);
+			path = "Dunkin DonutsTests";
+			sourceTree = "<group>";
+		};
+		57BCCFB63082CA6C00851C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCFB73082CA6C00851C01 /* Dunkin DonutsTests-Info.plist */,
+				57BCCFB83082CA6C00851C01 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574959123081ABCF00667961 /* DunkinWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574959453081ABCF00667961 /* Build configuration list for PBXNativeTarget "DunkinWeb" */;
+			buildPhases = (
+				5749590F3081ABCF00667961 /* Sources */,
+				574959103081ABCF00667961 /* Frameworks */,
+				574959113081ABCF00667961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DunkinWeb;
+			productName = DunkinWeb;
+			productReference = 574959133081ABCF00667961 /* DunkinWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574959323081ABCF00667961 /* DunkinWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574959483081ABCF00667961 /* Build configuration list for PBXNativeTarget "DunkinWebTests" */;
+			buildPhases = (
+				5749592E3081ABCF00667961 /* Sources */,
+				5749592F3081ABCF00667961 /* Frameworks */,
+				574959303081ABCF00667961 /* Resources */,
+				574959313081ABCF00667961 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574959393081ABCF00667961 /* PBXTargetDependency */,
+			);
+			name = DunkinWebTests;
+			productName = DunkinWebTests;
+			productReference = 574959333081ABCF00667961 /* DunkinWebTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		57BCCFAE3082CA6C00851C01 /* Dunkin DonutsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BCCFC13082CA6C00851C01 /* Build configuration list for PBXNativeTarget "Dunkin DonutsTests" */;
+			buildPhases = (
+				57BCCFAA3082CA6C00851C01 /* Sources */,
+				57BCCFAB3082CA6C00851C01 /* Frameworks */,
+				57BCCFAC3082CA6C00851C01 /* Resources */,
+				57BCCFAD3082CA6C00851C01 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dunkin DonutsTests";
+			productName = "Dunkin DonutsTests";
+			productReference = 57BCCFAF3082CA6C00851C01 /* Dunkin DonutsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5749590B3081ABCF00667961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Evrik Colozzo";
+			};
+			buildConfigurationList = 5749590E3081ABCF00667961 /* Build configuration list for PBXProject "DunkinWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5749590A3081ABCF00667961;
+			productRefGroup = 574959143081ABCF00667961 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5749597A3081AC6000667961 /* Products */;
+					ProjectRef = 574959793081AC6000667961 /* DunkinWeb.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				574959123081ABCF00667961 /* DunkinWeb */,
+				574959323081ABCF00667961 /* DunkinWebTests */,
+				57BCCFAE3082CA6C00851C01 /* Dunkin DonutsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574959113081ABCF00667961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574959213081ABCF00667961 /* InfoPlist.strings in Resources */,
+				574959293081ABCF00667961 /* Default.png in Resources */,
+				5749592B3081ABCF00667961 /* Default@2x.png in Resources */,
+				5749592D3081ABCF00667961 /* Default-568h@2x.png in Resources */,
+				574959A33081AC6000667961 /* Default-568h@2x.png in Resources */,
+				574959A43081AC6000667961 /* Default.png in Resources */,
+				574959A53081AC6000667961 /* Default@2x.png in Resources */,
+				574959A63081AC6000667961 /* DunkinWeb-Info.plist in Resources */,
+				574959A73081AC6000667961 /* InfoPlist.strings in Resources */,
+				574959A93081AC6000667961 /* DunkinWebTests-Info.plist in Resources */,
+				574959AB3081AC6000667961 /* InfoPlist.strings in Resources */,
+				574959AC3081AC6000667961 /* README.txt in Resources */,
+				574959AD3081AC6000667961 /* Icon-Small.png in Resources */,
+				574959AE3081AC6000667961 /* Icon-Small@2x.png in Resources */,
+				574959AF3081AC6000667961 /* Icon.png in Resources */,
+				574959B03081AC6000667961 /* Icon@2x.png in Resources */,
+				574959B13081AC6000667961 /* tab_cards.png in Resources */,
+				574959B23081AC6000667961 /* tab_cards@2x.png in Resources */,
+				574959B33081AC6000667961 /* tab_gift.png in Resources */,
+				574959B43081AC6000667961 /* tab_gift@2x.png in Resources */,
+				574959B53081AC6000667961 /* tab_menu.png in Resources */,
+				574959B63081AC6000667961 /* tab_menu@2x.png in Resources */,
+				574959B73081AC6000667961 /* tab_more.png in Resources */,
+				574959B83081AC6000667961 /* tab_more@2x.png in Resources */,
+				574959B93081AC6000667961 /* tab_restaurants.png in Resources */,
+				574959BA3081AC6000667961 /* tab_restaurants@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574959303081ABCF00667961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5749593F3081ABCF00667961 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BCCFAC3082CA6C00851C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BCCFBA3082CA6C00851C01 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		574959313081ABCF00667961 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		57BCCFAD3082CA6C00851C01 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5749590F3081ABCF00667961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574959923081AC6000667961 /* AppDelegate.m in Sources */,
+				574959933081AC6000667961 /* BlockingProtocol.m in Sources */,
+				574959953081AC6000667961 /* DDAPI.m in Sources */,
+				574959963081AC6000667961 /* GiftViewController.m in Sources */,
+				574959973081AC6000667961 /* JSONUtil.m in Sources */,
+				574959993081AC6000667961 /* main.m in Sources */,
+				5749599A3081AC6000667961 /* MenuTabViewController.m in Sources */,
+				5749599B3081AC6000667961 /* MoreViewController.m in Sources */,
+				5749599C3081AC6000667961 /* ProductViewController.m in Sources */,
+				5749599E3081AC6000667961 /* SampleCardView.m in Sources */,
+				5749599F3081AC6000667961 /* SpeedTest.m in Sources */,
+				574959A03081AC6000667961 /* StoreDetailViewController.m in Sources */,
+				574959A13081AC6000667961 /* StoresViewController.m in Sources */,
+				574959A23081AC6000667961 /* WebViewController.m in Sources */,
+				57BCCF893082B9DC00851C01 /* DDStyle.m in Sources */,
+				57BCCF8C3082BBFC00851C01 /* NotificationsViewController.m in Sources */,
+				57BCCF8E3082BC1200851C01 /* NotificationManager.m in Sources */,
+				57BCCFD130839D1300851C01 /* HistoryViewController.m in Sources */,
+				57BCCFD430839D2900851C01 /* SampleCards.m in Sources */,
+				57BCCFD630839D3300851C01 /* LocationFinder.m in Sources */,
+				57BCCFD930839E9000851C01 /* CardsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5749592E3081ABCF00667961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BCCFAA3082CA6C00851C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BCCFBD3082CA6C00851C01 /* Dunkin_DonutsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574959393081ABCF00667961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574959123081ABCF00667961 /* DunkinWeb */;
+			targetProxy = 574959383081ABCF00667961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5749591F3081ABCF00667961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574959203081ABCF00667961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5749593D3081ABCF00667961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5749593E3081ABCF00667961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		574959763081AC6000667961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574959773081AC6000667961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		574959803081AC6000667961 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574959813081AC6000667961 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57BCCF9B3082CA6B00851C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BCCF9C3082CA6B00851C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		57BCCFB83082CA6C00851C01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BCCFB93082CA6C00851C01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574959433081ABCF00667961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreLocation,
+				);
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574959443081ABCF00667961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreLocation,
+				);
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574959463081ABCF00667961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunkinWeb/DunkinWeb-Prefix.pch";
+				INFOPLIST_FILE = "DunkinWeb/DunkinWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreLocation,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		574959473081ABCF00667961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunkinWeb/DunkinWeb-Prefix.pch";
+				INFOPLIST_FILE = "DunkinWeb/DunkinWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					CoreLocation,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		574959493081ABCF00667961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DunkinWeb.app/DunkinWeb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunkinWeb/DunkinWeb-Prefix.pch";
+				INFOPLIST_FILE = "DunkinWebTests/DunkinWebTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5749594A3081ABCF00667961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DunkinWeb.app/DunkinWeb";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DunkinWeb/DunkinWeb-Prefix.pch";
+				INFOPLIST_FILE = "DunkinWebTests/DunkinWebTests-Info.plist";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		57BCCFC23082CA6C00851C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dunkin Donuts.app/Dunkin Donuts";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dunkin Donuts/Dunkin Donuts-Prefix.pch";
+				INFOPLIST_FILE = "Dunkin DonutsTests/Dunkin DonutsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		57BCCFC33082CA6C00851C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dunkin Donuts.app/Dunkin Donuts";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dunkin Donuts/Dunkin Donuts-Prefix.pch";
+				INFOPLIST_FILE = "Dunkin DonutsTests/Dunkin DonutsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5749590E3081ABCF00667961 /* Build configuration list for PBXProject "DunkinWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574959433081ABCF00667961 /* Debug */,
+				574959443081ABCF00667961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574959453081ABCF00667961 /* Build configuration list for PBXNativeTarget "DunkinWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574959463081ABCF00667961 /* Debug */,
+				574959473081ABCF00667961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574959483081ABCF00667961 /* Build configuration list for PBXNativeTarget "DunkinWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574959493081ABCF00667961 /* Debug */,
+				5749594A3081ABCF00667961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BCCFC13082CA6C00851C01 /* Build configuration list for PBXNativeTarget "Dunkin DonutsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BCCFC23082CA6C00851C01 /* Debug */,
+				57BCCFC33082CA6C00851C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5749590B3081ABCF00667961 /* Project object */;
+}
